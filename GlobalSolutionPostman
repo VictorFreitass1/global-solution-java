@@ -1,0 +1,805 @@
+{
+	"info": {
+		"_postman_id": "87a06864-2a60-4fb7-a549-3881aa3b0ac8",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "23195473"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/exercicios/deletar/12",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/exercicios/deletar/12"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/exercicios/listar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/exercicios/listar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/exercicios/atualizar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idExercicio\":12,\r\n  \"idPaciente\":3,\r\n  \"dataExercicio\":\"2023-10-10\",\r\n  \"tipoExercicio\": \"TESTANDO\",\r\n  \"duracaoEmMinutos\": 120\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/exercicios/atualizar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/exercicios/cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idPaciente\":3,\r\n  \"dataExercicio\":\"2023-10-10\",\r\n  \"tipoExercicio\": \"TESTE\",\r\n  \"duracaoEmMinutos\": 60\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/exercicios/cadastrar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/crianca/deletarCrianca/11",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/crianca/deletarCrianca/11"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/crianca/listarCrianca",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/crianca/listarCrianca"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/crianca/atualizarCrianca/11",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nomeCrianca\":\"TESTANDO\",\r\n  \"idade\":4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/crianca/atualizarCrianca/11"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/crianca/cadastrarCrianca",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nomeCrianca\":\"TESTE\",\r\n  \"idade\":3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/crianca/cadastrarCrianca"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/contatoPaciente/deletar/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/contatoPaciente/deletar/3"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/contatoPaciente/listar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/contatoPaciente/listar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/contatoPaciente/atualizar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idPaciente\":3,\r\n    \"telefonePaciente\": \"1188888-8888\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/contatoPaciente/atualizar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/contatoPaciente/cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idPaciente\":3,\r\n    \"telefonePaciente\": \"1199999-9999\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/contatoPaciente/cadastrar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/contatosMedicos/deletar/9",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/contatosMedicos/deletar/9"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/contatosMedicos/listar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/contatosMedicos/listar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/contatosMedicos/atualizar/9",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"telefoneMedico\": \"1188888-8888\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/contatosMedicos/atualizar/9"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/contatosMedicos/cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idMedico\":9,\r\n    \"telefoneMedico\": \"1199999-9999\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/contatosMedicos/cadastrar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/consultas/deletar/10",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/consultas/deletar/10"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/consultas/listar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/consultas/listar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/consultas/atualizar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idConsulta\":10,\r\n  \"idPaciente\":3,\r\n  \"idMedico\" :9,\r\n  \"dataConsulta\": \"2023-10-10\",\r\n  \"tipoConsulta\": \"TESTANDO\",\r\n  \"observacoes\":\"TESTANDO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/consultas/atualizar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/consultas/cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idPaciente\":3,\r\n  \"idMedico\" :9,\r\n  \"dataConsulta\": \"2023-10-10\",\r\n  \"tipoConsulta\": \"TESTE\",\r\n  \"observacoes\":\"TESTE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/consultas/cadastrar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/medicos/listar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/medicos/listar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/medicos/cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nomeMedico\":\"TESTE\",\r\n  \"especialidade\" :\"TESTE\",\r\n  \"email\": \"teste@teste.com\",\r\n  \"senha\": \"teste\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/medicos/cadastrar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/medicos/listar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/medicos/listar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/medicos/listar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/medicos/listar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/medicos/deletar/7",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/medicos/deletar/7"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/medicos/atualizar/7",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nomeMedico\":\"TESTANDO\",\r\n  \"especialidade\" :\"TESTANDO\",\r\n  \"email\": \"teste@teste.com\",\r\n  \"senha\": \"TESTANDO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/medicos/atualizar/7"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/medicos/cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nomeMedico\":\"TESTE\",\r\n  \"especialidade\" :\"TESTE\",\r\n  \"email\": \"teste@teste.com\",\r\n  \"senha\": \"teste\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/medicos/cadastrar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/alimentacao/listarTodos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/alimentacao/listarTodos"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/alimentacao/deletar/5",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/alimentacao/deletar/5"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/alimentacao/atualizar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idAlimentacao\":5,\r\n  \"idPaciente\" : 4,\r\n  \"dataRefeicao\": \"2023-19-11\",\r\n  \"descricaoRefeicao\": \"testandoooo\",\r\n  \"calorias\": 150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/alimentacao/atualizar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/alimentacao/cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idPaciente\" : 4,\r\n  \"dataRefeicao\": \"2023-19-11\",\r\n  \"descricaoRefeicao\": \"teste\",\r\n  \"calorias\": 100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/alimentacao/cadastrar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/alimentacao/cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idPaciente\" : 3,\r\n  \"dataRefeicao\": \"2023-19-11\",\r\n  \"descricaoRefeicao\": \"teste\",\r\n  \"calorias\": 100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/alimentacao/cadastrar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/pacientes/deletar/2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/pacientes/deletar/2"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/pacientes/atualizar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idPaciente\" : 2,\r\n  \"nomePaciente\": \"teste2\",\r\n  \"dataNascimento\": \"1990-01-01\",\r\n  \"email\": \"novoteste@teste.com\",\r\n  \"senha\": \"novaSenha123\",\r\n  \"cpf\": \"987.654.321-00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/pacientes/atualizar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/pacientes/cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nomePaciente\": \"teste2\",\r\n  \"dataNascimento\": \"1990-01-01\",\r\n  \"email\": \"novoteste@teste.com\",\r\n  \"senha\": \"novaSenha123\",\r\n  \"cpf\": \"987.654.321-00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/pacientes/cadastrar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/pacientes/listar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/pacientes/listar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/pacientes/cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nomePaciente\": \"NovoNome\",\r\n  \"dataNascimento\": \"1990-01-01\",\r\n  \"email\": \"novoteste@teste.com\",\r\n  \"senha\": \"novaSenha123\",\r\n  \"cpf\": \"987.654.321-00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/pacientes/cadastrar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/pacientes/deletar/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/pacientes/deletar/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/pacientes/atualizar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idPaciente\": 1,\r\n  \"nomePaciente\": \"NovoNome\",\r\n  \"dataNascimento\": \"1990-01-01\",\r\n  \"email\": \"novoteste@teste.com\",\r\n  \"senha\": \"novaSenha123\",\r\n  \"cpf\": \"987.654.321-00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/pacientes/atualizar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/pacientes/cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nomePaciente\": \"EXEMPLO\",\r\n  \"dataNascimento\": \"2023-11-19\",\r\n  \"email\": \"teste@teste.com\",\r\n  \"senha\": \"senha123\",\r\n  \"cpf\": \"123.456.789-00\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/pacientes/cadastrar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/pacientes/cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nomePaciente\": \"Teste\",\r\n  \"dataNascimento\": \"2023-11-19\",\r\n  \"email\": \"teste@teste.com\",\r\n  \"senha\": \"senha123\",\r\n  \"cpf\": \"123.456.789-00\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/pacientes/cadastrar"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/myresource",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/myresource"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/consultas/cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idPaciente\":3,\r\n  \"idMedico\" :8,\r\n  \"dataConsulta\": \"2023-10-10\",\r\n  \"tipoConsulta\": \"teste\",\r\n  \"observacoes\":\"testes\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/consultas/cadastrar"
+			},
+			"response": []
+		}
+	]
+}
